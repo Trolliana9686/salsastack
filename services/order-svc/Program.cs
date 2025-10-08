@@ -1,0 +1,1 @@
+var app=WebApplication.Create(); app.MapGet("/",()=> Results.Ok(new {service="order-svc", ok=true})); app.Run();
